@@ -1,0 +1,36 @@
+---
+source: tests/ui.rs
+expression: render(&a)
+---
+┌ kakeibo ─ /finance/main.journal ──────────────────────────────────────────────────────── 2026-10 ┐
+│ [1] Dashboard   [2] Transactions   [3] Accounts   [4] Reports                                    │
+│┌ Accounts · as of 2026-10-31 ───────────────────────────────────────────────────────────────────┐│
+││▼ assets                                                                    63,532.70 PLN       ││
+││    cash                                                                        68.00 PLN       ││
+││    checking                                                                42,464.70 PLN       ││
+││    savings                                                                 21,000.00 PLN       ││
+││▼ equity                                                                   -11,800.00 PLN       ││
+││    opening                                                                -11,800.00 PLN       ││
+││▼ expenses                                                                  24,109.60 PLN (YTD) ││
+││    dining                                                                     555.00 PLN       ││
+││    groceries                                                                4,189.60 PLN       ││
+││    rent                                                                    18,000.00 PLN       ││
+││    transport                                                                1,365.00 PLN       ││
+││▼ income                                                                   -62,000.00 PLN (YTD) ││
+││    salary                                                                 -62,000.00 PLN       ││
+││▼ liabilities                                                               -2,424.95 PLN       ││
+││  ▸ credit                                                                  -2,424.95 PLN       ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+││                                                                                                ││
+│└ Enter/Space expand · Enter on a leaf shows its transactions ───────────────────────────────────┘│
+│: command  / search  a add  e edit  d del  ? help  q quit                                         │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘

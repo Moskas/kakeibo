@@ -1,0 +1,375 @@
+; Sample journal for screenshots and snapshot tests
+
+2025-10-01 * Opening balances
+    assets:checking     3000.00 PLN
+    assets:savings      8000.00 PLN
+    assets:cash          800.00 PLN
+    equity:opening
+
+2025-10-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2025-10-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2025-10-07 * Biedronka  ; weekly shop
+    expenses:groceries         217.40 PLN
+    assets:checking
+
+2025-10-12 Lidl
+    expenses:groceries         173.15 PLN
+    liabilities:credit:card
+
+2025-10-14 ZTM monthly ticket
+    expenses:transport          119.00 PLN
+    assets:checking
+
+2025-10-18 Kebab
+    expenses:dining              42.00 PLN
+    assets:cash
+
+2025-10-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2025-11-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2025-11-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2025-11-07 * Biedronka  ; weekly shop
+    expenses:groceries         254.40 PLN
+    assets:checking
+
+2025-11-12 Lidl
+    expenses:groceries         226.15 PLN
+    liabilities:credit:card
+
+2025-11-14 ZTM monthly ticket
+    expenses:transport          148.00 PLN
+    assets:checking
+
+2025-11-18 Kebab
+    expenses:dining              59.00 PLN
+    assets:cash
+
+2025-11-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2025-12-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2025-12-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2025-12-07 * Biedronka  ; weekly shop
+    expenses:groceries         201.40 PLN
+    assets:checking
+
+2025-12-12 Lidl
+    expenses:groceries         169.15 PLN
+    liabilities:credit:card
+
+2025-12-14 ZTM monthly ticket
+    expenses:transport          97.00 PLN
+    assets:checking
+
+2025-12-18 Kebab
+    expenses:dining              76.00 PLN
+    assets:cash
+
+2025-12-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-01-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-01-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-01-07 * Biedronka  ; weekly shop
+    expenses:groceries         238.40 PLN
+    assets:checking
+
+2026-01-12 Lidl
+    expenses:groceries         222.15 PLN
+    liabilities:credit:card
+
+2026-01-14 ZTM monthly ticket
+    expenses:transport          126.00 PLN
+    assets:checking
+
+2026-01-18 Kebab
+    expenses:dining              33.00 PLN
+    assets:cash
+
+2026-01-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-02-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-02-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-02-07 * Biedronka  ; weekly shop
+    expenses:groceries         185.40 PLN
+    assets:checking
+
+2026-02-12 Lidl
+    expenses:groceries         165.15 PLN
+    liabilities:credit:card
+
+2026-02-14 ZTM monthly ticket
+    expenses:transport          155.00 PLN
+    assets:checking
+
+2026-02-18 Kebab
+    expenses:dining              50.00 PLN
+    assets:cash
+
+2026-02-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-03-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-03-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-03-07 * Biedronka  ; weekly shop
+    expenses:groceries         222.40 PLN
+    assets:checking
+
+2026-03-12 Lidl
+    expenses:groceries         218.15 PLN
+    liabilities:credit:card
+
+2026-03-14 ZTM monthly ticket
+    expenses:transport          104.00 PLN
+    assets:checking
+
+2026-03-18 Kebab
+    expenses:dining              67.00 PLN
+    assets:cash
+
+2026-03-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-04-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-04-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-04-07 * Biedronka  ; weekly shop
+    expenses:groceries         259.40 PLN
+    assets:checking
+
+2026-04-12 Lidl
+    expenses:groceries         161.15 PLN
+    liabilities:credit:card
+
+2026-04-14 ZTM monthly ticket
+    expenses:transport          133.00 PLN
+    assets:checking
+
+2026-04-18 Kebab
+    expenses:dining              84.00 PLN
+    assets:cash
+
+2026-04-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-05-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-05-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-05-07 * Biedronka  ; weekly shop
+    expenses:groceries         206.40 PLN
+    assets:checking
+
+2026-05-12 Lidl
+    expenses:groceries         214.15 PLN
+    liabilities:credit:card
+
+2026-05-14 ZTM monthly ticket
+    expenses:transport          162.00 PLN
+    assets:checking
+
+2026-05-18 Kebab
+    expenses:dining              41.00 PLN
+    assets:cash
+
+2026-05-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-06-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-06-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-06-07 * Biedronka  ; weekly shop
+    expenses:groceries         243.40 PLN
+    assets:checking
+
+2026-06-12 Lidl
+    expenses:groceries         157.15 PLN
+    liabilities:credit:card
+
+2026-06-14 ZTM monthly ticket
+    expenses:transport          111.00 PLN
+    assets:checking
+
+2026-06-18 Kebab
+    expenses:dining              58.00 PLN
+    assets:cash
+
+2026-06-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-07-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-07-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-07-07 * Biedronka  ; weekly shop
+    expenses:groceries         190.40 PLN
+    assets:checking
+
+2026-07-12 Lidl
+    expenses:groceries         210.15 PLN
+    liabilities:credit:card
+
+2026-07-14 ZTM monthly ticket
+    expenses:transport          140.00 PLN
+    assets:checking
+
+2026-07-18 Kebab
+    expenses:dining              75.00 PLN
+    assets:cash
+
+2026-07-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-08-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-08-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-08-07 * Biedronka  ; weekly shop
+    expenses:groceries         227.40 PLN
+    assets:checking
+
+2026-08-12 Lidl
+    expenses:groceries         153.15 PLN
+    liabilities:credit:card
+
+2026-08-14 ZTM monthly ticket
+    expenses:transport          169.00 PLN
+    assets:checking
+
+2026-08-18 Kebab
+    expenses:dining              32.00 PLN
+    assets:cash
+
+2026-08-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-09-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-09-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-09-07 * Biedronka  ; weekly shop
+    expenses:groceries         264.40 PLN
+    assets:checking
+
+2026-09-12 Lidl
+    expenses:groceries         206.15 PLN
+    liabilities:credit:card
+
+2026-09-14 ZTM monthly ticket
+    expenses:transport          118.00 PLN
+    assets:checking
+
+2026-09-18 Kebab
+    expenses:dining              49.00 PLN
+    assets:cash
+
+2026-09-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-10-01 * Rent
+    expenses:rent             1800.00 PLN
+    assets:checking
+
+2026-10-05 * Salary Acme
+    assets:checking           6200.00 PLN
+    income:salary
+
+2026-10-07 * Biedronka  ; weekly shop
+    expenses:groceries         211.40 PLN
+    assets:checking
+
+2026-10-12 Lidl
+    expenses:groceries         149.15 PLN
+    liabilities:credit:card
+
+2026-10-14 ZTM monthly ticket
+    expenses:transport          147.00 PLN
+    assets:checking
+
+2026-10-18 Kebab
+    expenses:dining              66.00 PLN
+    assets:cash
+
+2026-10-25 * Savings transfer
+    assets:savings            1000.00 PLN
+    assets:checking
+
+2026-10-27 * Biedronka
+    expenses:groceries          84.10 PLN
+    assets:checking

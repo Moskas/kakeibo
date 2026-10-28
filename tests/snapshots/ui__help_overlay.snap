@@ -1,0 +1,36 @@
+---
+source: tests/ui.rs
+expression: render(&a)
+---
+┌ kakeibo ─ /finance/main.journal ──────────────────────────────────────────────────────── 2026-10 ┐
+│ [1] Dashboard   [2┌ Help ────────────────────────────────────────────────────┐                   │
+│┌ Net worth ───────│1                 Dashboard view                          │──────────────────┐│
+││61,107.75 PLN     │2                 Transactions view                       │                  ││
+││▲ 3,742.35 PLN vs │3                 Accounts view                           │                  ││
+│└──────────────────│4                 Reports view                            │──────────────────┘│
+│┌ Spending by month│j / Down          Move down                               │──────────────────┐│
+││███████ ▃▃▃▃▃▃▃ ▅▅│k / Up            Move up                                 │▄ ▆▆▆▆▆▆▆ ▇▇▇▇▇▇▇ ││
+││███████ ███████ ██│g / Home          First row                               │█ ███████ ███████ ││
+││███████ ███████ ██│G / End           Last row                                │█ ███████ ███████ ││
+││███████ ███████ ██│Ctrl-d / PgDn     Page down                               │█ ███████ ███████ ││
+││███████ ███████ ██│Ctrl-u / PgUp     Page up                                 │█ ███████ ███████ ││
+││███████ ███████ ██│Enter / Space     Open or expand                          │█ ███████ ███████ ││
+││███████ ███████ ██│a                 Add transaction                         │█ ███████ ███████ ││
+││███████ ███████ ██│A                 Add account                             │█ ███████ ███████ ││
+││███████ ███████ ██│e                 Edit transaction                        │█ ███████ ███████ ││
+││███████ ███████ ██│d                 Delete transaction                      │█ ███████ ███████ ││
+││  Nov     Dec     │/                 Search                                  │    Sep     Oct   ││
+│└──────────────────│n                 Next match                              │──────────────────┘│
+│┌ Top categories ──│N                 Previous match                          │──────────────────┐│
+││rent          ████│f                 Filter transactions                     │            -84.10││
+││groceries     ████│[                 Previous period                         │          1,000.00││
+││transport     ██  │]                 Next period                             │            -66.00││
+││dining        █   │u                 Undo                                    │           -147.00││
+││                  │Ctrl-r            Redo                                    │           -149.15││
+││                  │:                 Command line                            │           -211.40││
+││                  │?                 Help                                    │         +6,200.00││
+││                  │q                 Quit                                    │         -1,800.00││
+││                  │                                                          │          1,000.00││
+│└──────────────────│Commands: :w  :q  :q!  :wq  :reload  :goto YYYY-MM        │──────────────────┘│
+│: command  / search│Press any key to close                                    │                   │
+└───────────────────└──────────────────────────────────────────────────────────┘───────────────────┘

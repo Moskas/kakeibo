@@ -1,0 +1,39 @@
+; Main journal
+; vim: ft=ledger
+
+commodity PLN
+  format 1,000.00 PLN
+
+account assets:checking
+account assets:savings  ; type:A
+account expenses:groceries
+
+comment
+This block is ignored by hledger.
+2026-01-01 not a transaction
+end comment
+
+2026-09-01 * Opening balances
+    assets:checking          3,000.00 PLN
+    assets:savings           9,000.00 PLN
+    equity:opening
+
+2026-09-05 * (1001) Salary Acme  ; payday
+    ; tag:salary
+    assets:checking   6200.00 PLN
+    income:salary
+
+2026/09/10 ! Biedronka
+	expenses:groceries		84.10 PLN  ; weekly shop
+	assets:checking
+
+2026.09.12 Rent
+    expenses:rent             1800 PLN
+      ; for september
+    * assets:checking        -1800 PLN = 7315.90 PLN
+
+# hash comment
+* org-style comment
+2026-09-20 Kebab | lunch with team
+    expenses:dining   32.00PLN
+    liabilities:credit:card  -32.00 PLN   

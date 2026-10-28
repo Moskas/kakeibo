@@ -1,0 +1,36 @@
+---
+source: tests/ui.rs
+expression: render(&a)
+---
+┌ kakeibo ─ /finance/main.journal ──────────────────────────────────────────────────────── 2026-10 ┐
+│ [1] Dashboard   [2] Transactions   [3] Accounts   [4] Reports                                    │
+│┌ Transactions  filter: all · 93 rows ───────────────────────────────────────────────────────────┐│
+││  Date       St Payee                                    Account                          Amount││
+││  2026-10-27 *  Biedronka                                expenses:groceries               -84.10││
+││▶ 2026-10-25 *  Savings transfer                         assets:savings                 1,000.00││
+││  2026-10-18    Kebab                                    expenses:dining                  -66.00││
+││  2026-10-14    ZTM monthly ticket                       expenses:transport              -147.00││
+││  2026-10-12    Lidl                                     expenses:groceries              -149.15││
+││  2026-10-07 *  Biedronka                                expenses:groceries              -211.40││
+││  2026-10-05 *  Salary Acme                              income:salary                 +6,200.00││
+││  2026-10-01 *  Rent                                     expenses:rent                 -1,800.00││
+││  2026-09-25 *  Savings transfer                         assets:savings                 1,000.00││
+││  2026-09-18    Kebab                                    expenses:dining                  -49.00││
+││  2026-09-14    ZTM monthly ticket                       expenses:transport              -118.00││
+││  2026-09-12    Lidl                                     expenses:groceries              -206.15││
+││  2026-09-07 *  Biedronka                                expenses:groceries              -264.40││
+││  2026-09-05 *  Salary Acme                              income:salary                 +6,200.00││
+││  2026-09-01 *  Rent                                     expenses:rent                 -1,800.00││
+││  2026-08-25 *  Savings transfer                         assets:savings                 1,000.00││
+││  2026-08-18    Kebab                                    expenses:dining                  -32.00││
+││  2026-08-14    ZTM monthly ticket                       expenses:transport              -169.00││
+││  2026-08-12    Lidl                                     expenses:groceries              -153.15││
+││  2026-08-07 *  Biedronka                                expenses:groceries              -227.40││
+││  2026-08-05 *  Salary Acme                              income:salary                 +6,200.00││
+│└────────────────────────────────────────────────────────────────────────────────────────────────┘│
+│┌ Selected: 2026-10-25 Savings transfer  · line 369 ─────────────────────────────────────────────┐│
+││  assets:savings          1,000.00 PLN                                                          ││
+││  assets:checking        -1,000.00 PLN  (inferred)                                              ││
+│└────────────────────────────────────────────────────────────────────────────────────────────────┘│
+│: command  / search  a add  e edit  d del  ? help  q quit                                         │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,11 @@
+2026-01-01 Opening
+  assets:bank  $1,500.25
+  equity
+
+2026-01-03 Coffee
+  expenses:coffee  $4.5
+  assets:bank  -$4.5
+
+2026-01-04 Refund
+  assets:bank  $-2
+  expenses:coffee

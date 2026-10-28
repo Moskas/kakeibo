@@ -1,0 +1,15 @@
+2026-03-01 March deposit
+    assets:checking  100 PLN = 340 PLN
+    income:other
+
+2026-01-01 Opening
+    assets:checking  200 PLN = 200 PLN
+    equity:opening
+
+2026-02-01 February deposit
+    assets:checking  50 PLN = 250 PLN
+    income:other
+
+2026-02-01 Same day, later in file
+    expenses:misc  10 PLN
+    assets:checking  -10 PLN = 240 PLN
